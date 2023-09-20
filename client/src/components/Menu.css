@@ -1,0 +1,32 @@
+.menu {
+    display:flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin: auto;
+    width: 40vw;
+}
+
+.menu a {
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.menu.light a {
+    color: #222;
+} 
+
+.menu.dark a {
+    color:whitesmoke
+}
+
+.menu a:hover {
+   color: #f36427
+}
+
+
+@media (max-width:768px){
+    .menu {
+        display: none;
+    }
+}

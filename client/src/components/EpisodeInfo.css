@@ -1,0 +1,21 @@
+.wrap {
+    position: relative;
+    height: 100%;
+}
+
+.wrap > .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+}
+
+.wrap > .text {
+    position: relative;
+    height: 100%;
+    padding: 0 25px;
+    overflow-y: auto;
+}
+

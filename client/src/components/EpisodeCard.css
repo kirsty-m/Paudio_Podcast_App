@@ -1,0 +1,49 @@
+.EpisodeCard {
+  margin: 0 5%;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 15px;
+}
+
+.EpisodeCard img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.EpisodeCard h4 {
+  margin: 8px 0 0 0;
+}
+
+.EpisodeCard > div {
+  flex: 1
+}
+
+.EpisodeCard .cardMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.EpisodeCard #icon {
+  margin-right: 0.3em;
+  font-size: 2em;
+}
+
+.EpisodeCard #icon:hover {
+  cursor: pointer;
+  color: #f36427;
+}
+
+.EpisodeCard.dark {}
+
+.EpisodeCard.light {
+  background-color: #555;
+  color: whitesmoke;
+}
+
+.EpisodeCard.light + hr {
+  border-color: rgb(223, 228, 233);
+}
+
